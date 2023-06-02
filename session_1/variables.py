@@ -7,7 +7,7 @@ programming_language = "Python"
 #text data - string, use quotes
 today = "tuesday"
 # print(today)
-# print("today is {today}")
+# print(f"today is {today}")
 # print(type(today))
 
 
@@ -15,7 +15,7 @@ today = "tuesday"
 #integer - whole number
 parkers_age = 4
 # print(type(parkers_age))
-# print("Parker is turning {parkers_age+1}")
+# print(f"Parker is turning {parkers_age+1}")
 
 # height = 155
 # print(f"my height is {height/100}")
