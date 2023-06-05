@@ -66,4 +66,19 @@
 # else:
 #     print("sorry, not today")
 
+# uname = input("Please enter username: ")
+# pword = input("please enter password: ")
+
+# if uname == "lucyg" and pword == "quartzgleam?1":
+#     print('Logged in sucessfully')
+# else:
+#     print("Access denied")
+
+check_email = input("Please enter your email: ")
+
+if "@" in check_email and "." in check_email:
+    print("valid email detected")
+else:
+    print("Invalid email detected")
+
 

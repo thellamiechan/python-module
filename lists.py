@@ -65,7 +65,7 @@ e = []
 
 
 # abc = print([a,b,c])
-a.extend(b)
-print(a)
-a.extend(c)
-print(a)
+# a.extend(b+c)
+print(a+b+c)
+# a.extend(c)
+# print(a)
