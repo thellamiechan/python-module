@@ -149,7 +149,7 @@ sum = 0
 for food in groceries:
     x = int(input("Enter the amount for " + food[0] + "  "))
     sum += (x * food[1])
-print("Your total is: $" + str(sum))    
+print("Your total is: $" + str(sum)) 
    
     
 
