@@ -37,7 +37,7 @@
 
 #exercises
 #Q1
-def get_integer():
+def get_integer(user_input):
     user_input = int(input("Could I please have an integer?: "))
     print(f"So your integer is {user_input}? Thanks!")
     return user_input

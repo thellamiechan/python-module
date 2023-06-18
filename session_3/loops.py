@@ -149,7 +149,21 @@ sum = 0
 for food in groceries:
     x = int(input("Enter the amount for " + food[0] + "  "))
     sum += (x * food[1])
-print("Your total is: $" + str(sum)) 
+# print("Your total is: $" + str(sum)) 
+
+#Q2 by Cinzia
+number = 84
+repeat = 'yes'
+while repeat != 'no':
+    guess = int(input("Guess a number:  "))
+    while number != guess:
+        if guess < number:
+            print("Too low, try again")
+        else:
+            print("Too high, try again")
+        guess = int(input("Make another guess:  ")) 
+    print("you got it right!!")   
+    repeat = input("Do you want to play again? Type 'no' to exit")
    
     
 
